@@ -1,0 +1,6 @@
+<h2 [style]="estilo" (click)="changeColor()">{{titulo}}( click on me to change my color)</h2>
+
+<label for="nota">Escribe la nota que me merezco </label>
+<input type="text" [(ngModel)]="nota" name="nota">
+
+<p>La nota que me merezco es: {{nota}}</p>

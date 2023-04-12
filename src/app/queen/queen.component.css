@@ -1,0 +1,26 @@
+
+table{
+  border-collapse: collapse;
+}
+tbody td, th, tfoot td{
+  border: 1px solid black;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+th{
+  color: white;
+  background-color: #555
+}
+
+thead>tr>td{
+  text-align: center;
+}
+tfoot{
+  background-color: #999;
+  color: white;
+}
+
+h2{
+  color: #777;
+}
