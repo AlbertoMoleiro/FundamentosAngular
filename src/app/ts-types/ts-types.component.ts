@@ -26,6 +26,13 @@ export class TsTypesComponent {
     let nulo: null = null;
     let indefinido: undefined = undefined;
 
+    // Diferentes Formas de declara String
+    let nombre: string = 'Juan';
+    let apellido: string = "Perez";
+    let nombreCompleto: string = `Nombre: ${nombre} Apellido: ${apellido}`;
+    //Las ventajas de utilizar backticks es que permite utilizar saltos de linea y concatenar variables
+
+
     console.log("Número: ",numero, " Tipo: ", typeof numero);
     console.log("Texto: ",texto, " Tipo: ", typeof texto);
     console.log("Booleano: ",booleano, " Tipo: ", typeof booleano);
